@@ -2,4 +2,4 @@
 export ARCHFLAGS='-arch i386'
 
 # Set macvim with flag to wait for console (git commit compat) as our EDITOR
-export EDITOR="mvim"
+export EDITOR="mvim -f"
