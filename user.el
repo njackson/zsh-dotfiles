@@ -1,5 +1,4 @@
 (color-theme-twilight)
-(clojure-slime-config "/home/abedra/src/opensource")
 (setq mac-option-modifier 'meta)
 (setq mac-command-modifier 'hyper)
 

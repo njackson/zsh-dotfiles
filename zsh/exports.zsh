@@ -1,8 +1,7 @@
 export PATH=/usr/local/bin:$PATH
-export CDPATH=.:~/src:~/src/personal:~/src/opensource:~/src/relevance:~/src/configs:~/Documents
 
-# Set default console Java to 1.6
-# export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home
+# Our list of directorys we can cd to from anywhere
+export CDPATH=.:~/workspace:~/projects:~/src:~/Documents
 
 # Setup terminal, and turn on colors
 export TERM=xterm-color
@@ -15,6 +14,6 @@ export GREP_COLOR='3;33'
 
 # Enable color, and better prompt in LESS
 export PAGER=less
-export LESS=ce3M
+export LESS="-erX"
 
-export EDITOR="emacs"
+export RUBYOPT=rubygems

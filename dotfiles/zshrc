@@ -1,0 +1,13 @@
+autoload -U compinit && compinit
+autoload colors && colors
+
+for file in ~/.zsh/*.zsh
+do
+  source $file
+done
+
+if [[ $(uname) == Darwin ]]; then
+  source ~/.zsh/platform/darwin.zsh
+elif [[ $(uname) == Linux ]]; then
+  source ~/.zsh/platform/linux.zsh
+fi
