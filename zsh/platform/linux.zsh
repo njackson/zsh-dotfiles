@@ -1,4 +1,4 @@
-for file in ~/.zsh/platform/darwin/*.zsh
+for file in ~/.zsh/platform/linux/*.zsh
 do
   source $file
 done
